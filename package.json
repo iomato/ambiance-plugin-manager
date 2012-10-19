@@ -1,0 +1,32 @@
+{
+  "name": "ambiance-plugin-manager",
+  "id": "ambiance-plugin-manager",
+  "version": "0.0.1",
+  "description": "plugin manager for ambiance editor",
+  "keywords": [ "plugins", "manager", "plugin", "ambiance" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/ambiance-plugin-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/ambiance-plugin-manager.git",
+    "web": "https://github.com/Gozala/ambiance-plugin-manager"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/ambiance-plugin-manager/issues/"
+  },
+  "main": "./plugin-manager.js",
+  "dependencies": {
+    "npm": "1.1.63",
+    "micro-promise": "*"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4"
+  },
+  "scripts": {
+    "test": "node tests/test-all.js"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
